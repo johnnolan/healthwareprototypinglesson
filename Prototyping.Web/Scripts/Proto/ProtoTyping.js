@@ -21,6 +21,7 @@ prototypeNamespace.DomManipulation.prototype = function () {
             d.removeChild(divToRemove);
         }
     },
+        // Show hide and toggle (http://jsperf.com/prototyping-with-hide-show-and-toggle)
         show = function(ele) {
             ele.style.display = "block";
         },

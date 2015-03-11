@@ -11,3 +11,17 @@ $('.validate-form').each(function (index, value) {
 
     $(this).remove('#' + divIdName);
 });
+
+function showEvent() {
+    $('#exampleInputFullName').show();
+}
+function hideEvent() {
+    $('#exampleInputFullName').show();
+}
+function toggleEvent() {
+    $('#exampleInputPassword1').show();
+}
+
+$('#showElement').on('click', showEvent);
+$('#hideElement').on('click', hideEvent);
+$('#toggleElement').on('click', toggleEvent);
